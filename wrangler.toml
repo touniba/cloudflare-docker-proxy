@@ -7,7 +7,7 @@ port = 8787
 local_protocol = "http"
 
 [env.vars]
-CUSTOM_DOMAIN = "qqmaster.asia"
+CUSTOM_DOMAIN = "qqmaster4580.asia"
 
 [env.dev.vars]
 MODE = "debug"
@@ -16,13 +16,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
  routes = [
-   { pattern = "docker.qqmaster.asia", custom_domain = true },
-   { pattern = "quay.qqmaster.asia", custom_domain = true },
-   { pattern = "gcr.qqmaster.asia", custom_domain = true },
-   { pattern = "k8s-gcr.qqmaster.asia", custom_domain = true },
-   { pattern = "k8s.qqmaster.asia", custom_domain = true },
-   { pattern = "ghcr.qqmaster.asia", custom_domain = true },
-   { pattern = "cloudsmith.qqmaster.asia", custom_domain = true },
+   { pattern = "docker.qqmaster4580.asia", custom_domain = true },
+   { pattern = "quay.qqmaster4580.asia", custom_domain = true },
+   { pattern = "gcr.qqmaster4580.asia", custom_domain = true },
+   { pattern = "k8s-gcr.qqmaster4580.asia", custom_domain = true },
+   { pattern = "k8s.qqmaster4580.asia", custom_domain = true },
+   { pattern = "ghcr.qqmaster4580.asia", custom_domain = true },
+   { pattern = "cloudsmith.qqmaster4580.asia", custom_domain = true },
  ]
 
 [env.production.vars]
